@@ -35,6 +35,16 @@ model_results = [
         'img_r_mean': 59.699999999999996,
         'r_mean': 63.2
     },
+    {'txt_r1': 48.4,
+     'txt_r5': 72.6,
+     'txt_r10': 81.4,
+     'txt_r_mean': 67.46666666666667,
+     'img_r1': 37.56,
+     'img_r5': 66.84,
+     'img_r10': 77.74,
+     'img_r_mean': 60.71333333333333,
+     'r_mean': 64.09
+     },
     {'txt_r1': 48.6,
      'txt_r5': 72.2,
      'txt_r10': 82.0,
@@ -64,16 +74,6 @@ model_results = [
      'img_r10': 91.02,
      'img_r_mean': 77.90666666666665,
      'r_mean': 81.66999999999999
-     },
-    {'txt_r1': 48.4,
-     'txt_r5': 72.6,
-     'txt_r10': 81.4,
-     'txt_r_mean': 67.46666666666667,
-     'img_r1': 37.56,
-     'img_r5': 66.84,
-     'img_r10': 77.74,
-     'img_r_mean': 60.71333333333333,
-     'r_mean': 64.09
      }
 
 ]
@@ -82,11 +82,11 @@ model_results = [
 model_params = [
     {'learning_rate': 0, 'batch_size': 0, 'epochs': 0},
     {'learning_rate': 0.0001, 'batch_size': 16, 'epochs': 4},
-    {'learning_rate': 0.0001, 'batch_size': 32, 'epochs': 4},
-    {'learning_rate': 0.0005, 'batch_size': 64, 'epochs': 5},
+    {'learning_rate': 0.0005, 'batch_size': 32, 'epochs': 6},
+    {'learning_rate': 0.0001, 'batch_size': 32, 'epochs': 6},
+    {'learning_rate': 0.0001, 'batch_size': 128, 'epochs': 4},
     {'learning_rate': 0.0001, 'batch_size': 128, 'epochs': 6},
-    {'learning_rate': 0.0001, 'batch_size': 64, 'epochs': 8},
-    {'learning_rate': 0.0005, 'batch_size': 32, 'epochs': 12}
+    {'learning_rate': 0.0001, 'batch_size': 128, 'epochs': 8}
 ]
 
 # 提取不同模型的指标

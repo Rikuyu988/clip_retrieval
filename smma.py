@@ -4,7 +4,7 @@ from skimage import io
 from PIL import Image
 import torchvision.transforms as transforms
 import torch
-from clip import CLIP
+from clip1 import CLIP
 
 # 加载预训练的 CLIP 模型
 clip = CLIP()
